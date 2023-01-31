@@ -9,10 +9,10 @@ function getComputerChoice() {
         choice = "Rock";
     }
     else if (random === 1) {
-        choice = "Paper"
+        choice = "Paper";
     }
     else if (random === 2) {
-        choice = "Scissors"
+        choice = "Scissors";
     }
     return choice;
 }
@@ -57,7 +57,7 @@ function playRound(playerSelection, computerSelection) {
         return "You drew!"
     }
     else {
-        return "Please choose only 'Rock' 'Paper' or 'Scissors'."
+        return "Please choose only 'Rock' 'Paper' or 'Scissors'.";
     }
 }
     
@@ -68,29 +68,21 @@ function game() {
     let playerSelection = ""; 
     let computerSelection = ""; 
     let results = "";
-    // while (playerScore >= 5 || computerScore >= 5) {
-    //     results = playRound(playerSelection, computerSelection);
-    //     if (results.substring(0, 5) === "You l") {
-    //         computerScore += 1;
-    //     }
-    //     else if (results.substring(0, 5) == "You w") {
-    //         playerScore += 1;
-    //     }
-    // }
+    
     for (let i = 0; i < 5; i++) {
         playerSelection = prompt("Please choose Rock, Paper, or Scissors.");
         computerSelection = getComputerChoice();
-        results = playRound(playerSelection, computerSelection)
-        console.log(results)
+        results = playRound(playerSelection, computerSelection);
+        console.log(results);
         console.log("Match Results: Player:" + playerScore + " Computer: " + computerScore);
     }
     if (computerScore > playerScore) {
-        console.log("You lost to a computer...")
+        console.log("You lost to a computer...");
     }
     else if (playerScore > computerScore) {
-        console.log("Wow you beat a computer!")
+        console.log("Wow you beat a computer!");
     }
     else {
-        console.log("Nobody won.")
+        console.log("Nobody won.");
     }
 }
