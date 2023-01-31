@@ -56,9 +56,9 @@ function playRound(playerSelection, computerSelection) {
     else if (playerSelection == "scissors" && computerSelection == "Scissors") {
         return "You drew!"
     }
-    // else {
-    //     return "Please choose only 'Rock' 'Paper' or 'Scissors'."
-    // }
+    else {
+        return "Please choose only 'Rock' 'Paper' or 'Scissors'."
+    }
 }
     
 // plays rock paper scissors for 5 rounds
