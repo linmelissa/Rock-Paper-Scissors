@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Rock Paper Scissors</title>
+    <title>Rock Paper Scissors: Sprout Lands Edition</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="assets/images/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/images/favicon/favicon-16x16.png" sizes="16x16" />
+
 </head>
 <body>
+  <div id="page-container">
+    <div id="content-wrap">
+      <div class="sectionOne">
+        <h1>Rock Paper Scissors against Sprout Bunny</h1>
+      </div>
+   
+      <div class="sectionTwo"> 
+        <div class="Character">
+          <img class="Character_spritesheet pixelart" src="assets/images/characters/bunny.png" alt="bunny" />
+        </div>
+      </div>
+      <h2>Tools</h2>
+  
+      <div class = "sectionThree">
+        <!-- Option buttons -->
+        <button class="options" id="rock">
+          <img class="rock" src="assets/images/objects/rock.png">
+        </button>
+        <button class="options" id="paper">
+          <img class="paper" src="assets/images/objects/grass.png">
+        </button>
+        <button class="options" id="scissors">
+          <img class="scissors" src="assets/images/objects/axe.png">
+        </button>
+      </div>
+      <div class="information" id="information">Choose a tool to begin playing!</div>
+    </div>
+
+    <footer class="footer">
+      <p> 
+        <a href="https://github.com/linmelissa" target="_blank">
+        copyright ©
+        <script>
+          document.write(new Date().getFullYear())
+        </script>
+        melissa lin
+      </a>
+      </p>
+    </a>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
