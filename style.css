@@ -14,21 +14,21 @@ body {
  
 /* bunny and title */
 
- .sectionOne {
+.sectionOne {
    display: flex;
    align-items: center;
    justify-content: center;
- }
+}
 
 
- h1 {
+h1 {
    text-align: center;
    color: #90625d;
    font-size: 30px;
    padding: 10px;
    background-color: #e8cfa6;
    border:10px solid #b68962;
- }
+}
  
 /* bunny */
 :root {
@@ -71,19 +71,18 @@ body {
 
 /* tools section */
 
-  h2 {
+h2 {
    text-align: center;
    color: #5c4e92;
    font-size: 30px;
-   padding-bottom: 18px;
-  }
+}
 
-  .information {
+.information {
    font-size: 25px;
    color: #e8b5ac;
    margin-bottom: 40px;
    text-align: center;
-  }
+}
 
 /* tools buttons */
 .sectionThree {
@@ -125,8 +124,6 @@ button {
    cursor:pointer;
  }
 
- 
-
  /* footer */
 
 .footer {
@@ -142,13 +139,16 @@ button {
   }
 
 a {
-color: #90625d;
-text-decoration: none;
+   color: #90625d;
+   text-decoration: none;
 }
 
 #page-container {
    position: relative;
    min-height: 100vh;
+   justify-content: center;
+   align-items: center;
+   display: flex;
    }
    
 #content-wrap {
